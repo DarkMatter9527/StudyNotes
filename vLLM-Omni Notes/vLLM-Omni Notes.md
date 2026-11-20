@@ -124,7 +124,7 @@
 
     这段代码**完全正确、能跑**，问题不在"能不能跑"，而在"跑得好不好"：
 
-    ![纯 PyTorch vs vLLM-Omni](C:\Users\13765\Desktop\第十一周\vllm-omni-qwen3tts-blog\images\compare.png)
+    ![纯 PyTorch vs vLLM-Omni](images/compare.png)
 
     | 痛点           | 具体表现                                                     |
     | -------------- | ------------------------------------------------------------ |
@@ -231,7 +231,7 @@
     
     下游不用等上游全部跑完。画成时间线就是：
     
-    ![流式 chunk 时间线](C:\Users\13765\Desktop\第十一周\vllm-omni-qwen3tts-blog\images\streaming.png)
+    ![流式 chunk 时间线](images/streaming.png)
     
     *Talker 每攒满 25 帧就推一次，Code2Wav 边收边解码，两阶段时间重叠*
     
